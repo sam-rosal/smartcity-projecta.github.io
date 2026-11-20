@@ -178,10 +178,13 @@ caseStudy: {
       }
     },
 
-    discussionTitle: "Discussion",
+   discussionTitle: "Discussion",
     discussionBullets: [
       "Scenario A (100% HDV baseline) on Edge E145 shows two-regime behaviour with clusters near 15–30 veh/km and congested states at 200–280 veh/km (vf = 14.14 m/s, kj = 259.2 veh/km, R² = 0.963).",
       "Scenario B (100% CAV) consolidates observations in low density (under 25 veh/km) with vf = 15.71 m/s and fitted kj = 118.7 veh/km (R² = 0.882), though kj is extrapolated without high-density points.",
+      "Scenario C (Intervention X, 100% HDV with 8s left-turn advanced green) shifts points into 10–20 veh/km with vf = 16.84 m/s and fitted kj = 79.4 veh/km, preventing severe Edge E145 queue buildup.",
+      "Reallocating signal time may transfer delays and queues onto cross-street approaches, and municipal re-timing costs must be weighed against network-wide impacts.",
+      "Next steps include collecting empirical radar/video traffic and turning counts, modeling full network interactions, and testing mixed HDV–CAV penetration before capital commitment."
     ]
   },
 
