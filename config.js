@@ -163,7 +163,7 @@ caseStudy: {
   results: {
     title: "Results & Potential Improvements",
     subtitle:
-      "Edge E145 speed-density simulation comparisons across 100% HDV baseline (Scenario A), 100% CAV (Scenario B), and Intervention X (Scenario C). Results are for educational purposes only.",
+      "Edge E145 speed-density simulation comparisons across 100% HDV baseline (Scenario A) and 100% CAV (Scenario B). Results are for educational purposes only.",
 
     charts: {
       left: {
