@@ -56,7 +56,7 @@ window.SITE_CONFIG = {
   },
 
   intro: {
-    projectTitleLabel: "A",
+    projectTitleLabel: "Mini Project A",
     projectTitle: "Evaluating AV Integration and Intersection Efficiency at Sheppard Ave W & Yonge St: A SUMO-Based Traffic Simulation and Demand Analysis",
     heroVideo: "assets/video/video.mp4",
     heroVideoPoster: "",
