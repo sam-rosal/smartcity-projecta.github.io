@@ -65,31 +65,31 @@ window.SITE_CONFIG = {
       "Study Area: Sheppard Ave W & Yonge St, Toronto, ON · Stages A1 & A2 · Scenarios A, B & C (Intervention X)"
   },
 
-  caseStudy: {
+caseStudy: {
     title: "Introduction",
 
     backgroundTitle: "Background",
     backgroundBullets: [
-      "Digital traffic models replicate urban intersections to test signal plans and vehicle technologies safely.[cite: 1]",
-      "Study area covers Sheppard Ave W & Yonge St in North York, Toronto, modeled in SUMO.[cite: 1]",
-      "Controlled simulations against a 100% HDV baseline isolate CAV and signal timing impacts.[cite: 1]",
-      "Toronto drivers lost 100 hours to rush-hour congestion in 2025, necessitating data-backed road investments.[cite: 1]"
+      "Digital traffic models replicate urban intersections to test signal plans and vehicle technologies safely.",
+      "Study area covers Sheppard Ave W & Yonge St in North York, Toronto, modeled in SUMO.",
+      "Controlled simulations against a 100% HDV baseline isolate CAV and signal timing impacts.",
+      "Toronto drivers lost 100 hours to rush-hour congestion in 2025, necessitating data-backed road investments."
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-      "A calibrated SUMO baseline (100% HDV) is needed to characterize Edge E145 speed-density behaviour.[cite: 1]",
-      "100% CAV speed-density impacts cannot be inferred from human-driven models without controlled testing.[cite: 1]",
-      "Signal re-timing requires quantitative before-and-after evidence on Edge E145 prior to municipal investment.[cite: 1]",
-      "Single-edge scope and uncalibrated synthetic demand limit network-wide generalization without further analysis.[cite: 1]"
+      "A calibrated SUMO baseline (100% HDV) is needed to characterize Edge E145 speed-density behaviour.",
+      "100% CAV speed-density impacts cannot be inferred from human-driven models without controlled testing.",
+      "Signal re-timing requires quantitative before-and-after evidence on Edge E145 prior to municipal investment.",
+      "Single-edge scope and uncalibrated synthetic demand limit network-wide generalization without further analysis."
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-      "Build a SUMO network for Sheppard & Yonge and model the 100% HDV baseline on Edge E145.[cite: 1]",
-      "Compare Edge E145 speed-density performance between 100% HDV and 100% CAV scenarios.[cite: 1]",
-      "Implement and evaluate Intervention X (8s left-turn advanced green) using before-and-after data.[cite: 1]",
-      "Provide simulation evidence to guide network-wide study before committing municipal capital.[cite: 1]"
+      "Build a SUMO network for Sheppard & Yonge and model the 100% HDV baseline on Edge E145.",
+      "Compare Edge E145 speed-density performance between 100% HDV and 100% CAV scenarios.",
+      "Implement and evaluate Intervention X (8s left-turn advanced green) using before-and-after data.",
+      "Provide simulation evidence to guide network-wide study before committing municipal capital."
     ]
   },
   overview: {
