@@ -167,12 +167,12 @@ caseStudy: {
 
     charts: {
       left: {
-        title: "Scenario A vs. Scenario B — Speed-Density: HDV Baseline vs. 100% CAV",
+        title: "Scenario A — Speed-Density Diagram: 100% HDV Baseline",
         src: "assets/img/image6.jpg",
         alt: "Edge E145 speed-density diagrams comparing 100% HDV baseline and 100% CAV scenario"
       },
       right: {
-        title: "Scenario A vs. Scenario C — Speed-Density: HDV Baseline vs. Intervention X",
+        title: "Scenario B  — Speed-Density Diagram: 100% AV/CAV",
         src: "assets/img/image7.jpg",
         alt: "Edge E145 speed-density diagrams comparing 100% HDV baseline and Intervention X"
       }
