@@ -70,29 +70,28 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-      "Integrated digital roadway and traffic models replicate urban intersections to test signal plans and vehicle technologies in a risk-free environment.",
-      "Study area focuses on the Sheppard Ave W & Yonge St intersection in North York, Toronto, Ontario [43.76161151608023, -79.41093187068347], modeled in SUMO across Stages A1 and A2.",
-      "Controlled comparisons against a 100% Human-Driven Vehicle (HDV) baseline isolate behavioural impacts of Connected Autonomous Vehicles (CAVs) and signal timing changes.",
-      "Toronto ranked among North America's most congested cities, with rush-hour time lost reaching 100 hours (4 days, 4 hours) in 2025—up 3 hours and 50 minutes from 2024—highlighting the need for quantifiable justification before capital investments."
+      "Digital traffic models replicate urban intersections to test signal plans and vehicle technologies safely.[cite: 1]",
+      "Study area covers Sheppard Ave W & Yonge St in North York, Toronto, modeled in SUMO.[cite: 1]",
+      "Controlled simulations against a 100% HDV baseline isolate CAV and signal timing impacts.[cite: 1]",
+      "Toronto drivers lost 100 hours to rush-hour congestion in 2025, necessitating data-backed road investments.[cite: 1]"
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-      "Problem 1 (Baseline Development): Requires a calibrated SUMO network (Stage A1) and baseline 100% HDV simulation (Stage A2) to characterize speed-density behaviour on upstream approach Edge E145 while addressing human driving variance and artificial lane-sorting bottlenecks.",
-      "Problem 2 (AV Fleet Impact Testing): CAV stream speed-density effects on Edge E145 cannot be inferred from HDV models alone and require a controlled 100% CAV run under identical network, demand, and signal conditions.",
-      "Problem 3 (Signal Intervention Evidence): Municipal signal re-timing requires quantitative before-and-after speed-density evidence on Edge E145 under identical conditions before changes are finalized.",
-      "Single-edge scope and uncalibrated synthetic demand (300 veh/h through, 150 veh/h turning) limit network-wide and real-world generalization without further study."
+      "A calibrated SUMO baseline (100% HDV) is needed to characterize Edge E145 speed-density behaviour.[cite: 1]",
+      "100% CAV speed-density impacts cannot be inferred from human-driven models without controlled testing.[cite: 1]",
+      "Signal re-timing requires quantitative before-and-after evidence on Edge E145 prior to municipal investment.[cite: 1]",
+      "Single-edge scope and uncalibrated synthetic demand limit network-wide generalization without further analysis.[cite: 1]"
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-      "Objective 1: Develop a SUMO digital road network and traffic model for Sheppard Ave W & Yonge St (Stages A1–A2) and characterize the 100% HDV baseline (Scenario A) speed-density relationship on Edge E145.",
-      "Objective 2: Compare and evaluate the Edge E145 speed-density relationship under 100% HDV baseline (Scenario A) versus 100% CAV conditions (Scenario B).",
-      "Objective 3: Select, justify, implement, and evaluate Intervention X (Scenario C with altered TLS phases and an 8s left-turn advanced green) via before-and-after speed-density observations on Edge E145.",
-      "Provide empirical simulation evidence to guide network-wide evaluation and data collection prior to municipal capital investment."
+      "Build a SUMO network for Sheppard & Yonge and model the 100% HDV baseline on Edge E145.[cite: 1]",
+      "Compare Edge E145 speed-density performance between 100% HDV and 100% CAV scenarios.[cite: 1]",
+      "Implement and evaluate Intervention X (8s left-turn advanced green) using before-and-after data.[cite: 1]",
+      "Provide simulation evidence to guide network-wide study before committing municipal capital.[cite: 1]"
     ]
   },
-
   overview: {
     title: "Methodology",
     steps: [
